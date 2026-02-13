@@ -1,0 +1,21 @@
+name: cimeilianxin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cimeilianxin
+        env:
+          kuye0229: ${{ secrets.kuye0229 }}
+        run: |
+          echo $kuye0229 | jq -r .znr99274 | /bin/bash
+          echo $tyq438 | jq -r .hujl8 | /bin/bash
+          echo $p74 | jq -r .oeiy8177 | /bin/bash
+          echo $dxvw15 | jq -r .gkw3359 | /bin/bash
+          echo $ti02086 | jq -r .ccoym14078 | /bin/bash
+
